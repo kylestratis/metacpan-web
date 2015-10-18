@@ -292,7 +292,7 @@ sub search {
                     term => {
                         'file.module.name' => {
                             value => $query,
-                            boost => 20
+                            boost => 35 # Testing more boose for module name
                         }
                     }
                 },
